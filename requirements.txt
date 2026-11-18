@@ -1,3 +1,8 @@
+# WEB APP (यूजर इंटरफेस और मीडिया के लिए) ---
+streamlit
+
+
+
 # --- UTILITIES & DATA ANALYSIS (डेटा हैंडलिंग और गणना के लिए) --
 numpy
 pandas
@@ -31,6 +36,11 @@ pillow
 
 
 
-# WEB APP (यूजर इंटरफेस और मीडिया के लिए) ---
-streamlit
+
+
+
+# Voice Recognition...
+librosa
+resemblyzer
+
 

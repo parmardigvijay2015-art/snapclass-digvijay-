@@ -14,16 +14,16 @@ def home_screen():
 
     with col1:
         st.subheader("I'm Student")
-        st.image("https://img.icons8.com/emoji/1200/person-student.jpg", width=120)
+        st.image("https://img.icons8.com/emoji/1200/person-student.jpg", width=150)
         if st.button("Student Portal", type= "primary", icon=":material/arrow_outward:", icon_position="right"):
-            st.session_state["login-type"] = "student"
+            st.session_state["login_type"] = "student"
             st.rerun()
         
     with col2:
         st.subheader("I'm Teacher")
-        st.image("https://png.pngtree.com/png-vector/20220719/ourmid/pngtree-people-avatar-icons---teacher-speaker-symbol-front-vector-png-image_37974884.png", width=100)
+        st.image("https://png.pngtree.com/png-vector/20220719/ourmid/pngtree-people-avatar-icons---teacher-speaker-symbol-front-vector-png-image_37974884.png", width=130)
         if st.button("Teacher Portal", type= "primary", icon=":material/arrow_outward:", icon_position="right"):
-            st.session_state["login-type"] = "teacher"
+            st.session_state["login_type"] = "teacher"
             st.rerun()
 
     footer_home()
