@@ -7,7 +7,7 @@ import io
 
 @st.dialog("Share Class Link")
 def  share_subject_dialog(subject_name, subject_code):
-    app_domain = "snapclass-main.streamlit.app"
+    app_domain = "https://snapclass-main-digvijay.streamlit.app"
 
     # .rstrip('/') लगाने से अगर आखिर में स्लैश होगा तो वह अपने आप हट जाएगा
     clean_url = app_domain.rstrip("/")
